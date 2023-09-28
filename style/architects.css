@@ -16,7 +16,7 @@
     cursor: pointer;
 }
 
-.text-lightgray {
+.text-lightgray card-title {
     color: #727272;
 }
 
@@ -107,7 +107,29 @@ main {
     font-size: 45px;
     font-weight: 700;
 }
-
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+}
+.facts-card-container .card-stats{
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.facts-card-container .card-title{
+font-size: 20px;
+font-weight: 600;
+margin-top: 5px;
+margin-bottom: 5px;
+}
 
 /* mobile device */
 
