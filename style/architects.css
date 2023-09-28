@@ -72,6 +72,41 @@ nav li a {
     width: 100%;
 }
 
+/* main style */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.team-container{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.team-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.team-title{
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+.of-our{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.Feature{
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
 
 
 /* mobile device */
